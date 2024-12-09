@@ -1,0 +1,81 @@
+/* estilização global */
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+/* fundo da página */
+body{
+    background-image: url(imagens/imagem-fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    
+}
+
+/* estilização do cabeçalho */
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
+/* links do cabeçalho */
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 550;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* estilização dos links */
+.cabeçalho-link a{
+    color: white;
+    font-size: 16px;
+}
+
+.cabeçalho-link a:hover{
+    color: #F28585;
+    transition: 0.3s all;
+}
+
+/* estilização do texto principal */
+.container-text{
+    padding: 300px 0 0 50px;
+}
+
+/* estilo dos títulos */
+.text h1{
+    color: white;
+    font-size: 33px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.text h2{
+    color: white;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* destaque no texto */
+.text span{
+    color: #F28585;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.text p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
